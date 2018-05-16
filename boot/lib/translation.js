@@ -599,6 +599,79 @@ new Webos.Locale({
 	}
 }, 'en_EN');
 
+//Русский
+new Webos.Locale({
+	title: 'Русский',
+	integerGroupsSeparator: ',',
+	decimalSeparator: '.',
+	days: ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'],
+	months: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+	currency: 'Руб '
+}, {
+	number: function(nbr) {
+		nbr = String(nbr);
+		parts = nbr.split('.');
+		
+		var integer = '';
+		var count = 0;
+		for (var i = parts[0].length - 1; i >= 0; i--) {
+			if (count % 3 === 0 && i != parts[0].length - 1) {
+				integer = this._get('integerGroupsSeparator') + integer;
+			}
+			integer = parts[0].charAt(i) + integer;
+			
+			count++;
+		}
+		
+		nbr = integer + this._get('decimalSeparator') + parts[1];
+		
+		return nbr;
+	},
+	day: function(nbr) {
+		return this._get('days')[nbr];
+	},
+	dayAbbreviation: function(nbr) {
+		return this.day(nbr).slice(0, 3) + '.';
+	},
+	month: function(nbr) {
+		return this._get('months')[nbr];
+	},
+	monthAbbreviation: function(nbr) {
+		return this.month(nbr).slice(0, 3) + '.';
+	},
+	date: function(date) {
+		return this.day(date.getDay()) + ' ' +
+			date.getDate() + ' ' +
+			this.month(date.getMonth());
+	},
+	dateAbbreviation: function(date) {
+		return this.dayAbbreviation(date.getDay()) + ' ' +
+			date.getDate() + ' ' +
+			this.monthAbbreviation(date.getMonth());
+	},
+	time: function(date, showSeconds) {
+		var addZeroFn = function(nbr) {
+			nbr = String(nbr);
+			if (nbr.length == 1) {
+				nbr = '0' + nbr;
+			}
+			return nbr;
+		};
+		
+		return addZeroFn(date.getHours()) + ':' +
+			addZeroFn(date.getMinutes()) +
+			((showSeconds) ? (':' + addZeroFn(date.getSeconds())) : '');
+	},
+	completeDate: function(date) {
+		return this.dateAbbreviation(date) + ' ' +
+			date.getFullYear() + ' ' +
+			this.time(date, true) + ' GMT' + Math.floor(date.getTimezoneOffset() / 60);
+	},
+	currency: function(value) {
+		return this._get('currency') + this.number(value);
+	}
+}, 'ru_RU');
+
 //French (France)
 new Webos.Locale({
 	title: 'Fran&ccedil;ais (France)',
