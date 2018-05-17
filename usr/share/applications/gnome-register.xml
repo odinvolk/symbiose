@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shortcut>
 	<attribute name="title" value="Register"/>
+	<attribute name="title" lang="ru_RU" value="Регистрация"/>
 	<attribute name="title" lang="fr_FR" value="Inscription"/>
 	<attribute name="description" value="Create a new account"/>
+	<attribute name="description" lang="ru_RU" value="Создать новую учетную запись"/>
 	<attribute name="description" lang="fr_FR" value="Créer un nouveau compte"/>
 	<attribute name="command" value="gnome-register"/>
 	<attribute name="icon" value="stock/person"/>
