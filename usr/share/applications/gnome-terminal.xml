@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shortcut>
 	<attribute name="title" value="Terminal"/>
+	<attribute name="title" lang="ru_RU" value="Терминал"/>
 	<attribute name="title" lang="fr_FR" value="Terminal"/>
 	<attribute name="title" lang="es_ES" value="Terminal"/>
 	<attribute name="description" value="Use the command line interface"/>
+	<attribute name="description" lang="ru_RU" value="Используйте командную строку"/>
 	<attribute name="description" lang="fr_FR" value="Utiliser la ligne de commande"/>
 	<attribute name="description" lang="es_ES" value="Utilizar la línea de comandos"/>
 	<attribute name="command" value="gnome-terminal"/>
