@@ -2,6 +2,7 @@
 <shortcut>
 	<attribute name="title" value="Google Documents"/>
 	<attribute name="description" value="Display and edit Google Docs files"/>
+	<attribute name="description" lang="ru_RU" value="Просмотр и редактирование файлов Google Docs"/>
 	<attribute name="description" lang="fr_FR" value="Afficher et éditer des fichiers Google Docs"/>
 	<attribute name="description" lang="es_ES" value="Mostrar y editar ficheros de Google Docs"/>
 	<attribute name="command" value="google-docs"/>
