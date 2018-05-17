@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shortcut>
 	<attribute name="title" value="Administration"/>
+	<attribute name="title" lang="ru_RU" value="Управление"/>
 	<attribute name="title" lang="fr_FR" value="Administration"/>
 	<attribute name="name" value="administration"/>
 	<attribute name="description" value="Manage the system"/>
+	<attribute name="description" lang="ru_RU" value="Администрирование системы"/>
 	<attribute name="description" lang="fr_FR" value="Administrer le système"/>
 	<attribute name="icon" value="/usr/share/icons/categories/23/administration.png"/>
 	<attribute name="menu" value="system"/>
