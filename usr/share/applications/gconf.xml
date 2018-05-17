@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shortcut>
 	<attribute name="title" value="System settings"/>
+	<attribute name="title" lang="ru_RU" value="Системные настройки"/>
 	<attribute name="title" lang="fr_FR" value="Paramètres système"/>
 	<attribute name="title" lang="es_ES" value="Configuración del sistema"/>
 	<attribute name="description" value="Manage system settings"/>
+	<attribute name="description" lang="ru_RU" value="Изменение настроек системы"/>
 	<attribute name="description" lang="fr_FR" value="Modifier les paramètres système"/>
 	<attribute name="description" lang="es_ES" value="Modificar las configuraciones del sistema"/>
 	<attribute name="command" value="gconf"/>
