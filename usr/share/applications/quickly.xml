@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shortcut>
 	<attribute name="title" value="Quickly package creator"/>
+	<attribute name="title" lang="ru_RU" value="Быстро создатель пакета"/>
 	<attribute name="title" lang="fr_FR" value="Créateur de paquets Quickly"/>
 	<attribute name="title" lang="es_ES" value="Creador de paquetes Quickly"/>
 	<attribute name="description" value="Quickly create packages"/>
+	<attribute name="description" lang="ru_RU" value="Быстрое создание пакетов"/>
 	<attribute name="description" lang="fr_FR" value="Générer rapidement des paquets"/>
 	<attribute name="description" lang="es_ES" value="Generar rápidamente paquetes"/>
 	<attribute name="command" value="quickly"/>
