@@ -2,6 +2,7 @@
 <shortcut>
 	<attribute name="title" value="FTP"/>
 	<attribute name="description" value="Open your FTP server"/>
+	<attribute name="description" lang="ru_RU" value="Доступ к FTP-серверу"/>
 	<attribute name="description" lang="fr_FR" value="Accéder a votre serveur FTP"/>
 	<attribute name="description" lang="es_ES" value="Acceda a su servidor FTP"/>
 	<attribute name="command" value="nautilus-mounter FTPFile"/>
