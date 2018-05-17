@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shortcut>
 	<attribute name="title" value="Calculator"/>
+	<attribute name="title" lang="ru_RU" value="Калькулятор"/>
 	<attribute name="title" lang="fr_FR" value="Calculatrice"/>
 	<attribute name="title" lang="es_ES" value="Calculadora"/>
 	<attribute name="description" value="Perform arithmetic operations"/>
+	<attribute name="description" lang="ru_RU" value="Выполнение арифметических операций"/>
 	<attribute name="description" lang="fr_FR" value="Effectuer des opérations arithmétiques"/>
 	<attribute name="description" lang="es_ES" value="Efectúe operaciones aritméticas"/>
 	<attribute name="command" value="gcalctool"/>
