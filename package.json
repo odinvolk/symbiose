@@ -7,8 +7,8 @@
     "web desktop"
   ],
   "bugs": {
-    "url": "https://github.com/symbiose/symbiose/issues",
-    "email": "symbiose@emersion.fr"
+    "url": "https://github.com/odinvolk/symbiose/issues",
+    "email": "odinwolk@gmail.com"
   },
   "license": "GPLv3",
   "homepage": "http://symbiose.fr.cr",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/symbiose/symbiose.git"
+    "url": "https://github.com/odinvolk/symbiose.git"
   },
   "devDependencies": {
     "grunt": "^0.4.2",
