@@ -7,7 +7,7 @@
 
 	var Apport = {};
 
-	Apport._repo = 'symbiose/symbiose';
+	Apport._repo = 'odinvolk/symbiose';
 	Apport.report = function(title, body) {
 		title = title || '';
 		body = body || '';
