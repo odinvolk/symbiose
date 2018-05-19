@@ -3,70 +3,70 @@
 
 [![Build Status](https://travis-ci.org/symbiose/symbiose.svg?branch=master)](https://travis-ci.org/symbiose/symbiose)
 
-This version (beta) is unstable. 
+Это (beta) версия не стабильна. 
 
-Key features
+Основные возможности
 ------------
 
-* Apps:
- * Calculator (essential!)
- * Brackets code editor
- * Basic text editor ([gedit](https://en.wikipedia.org/wiki/Gedit))
+* Приложения:
+ * Calculator (важно!)
+ * Редактор кода Brackets
+ * Основной текстовый редактор ([gedit](https://en.wikipedia.org/wiki/Gedit))
  * File manager with copy-paste, drag'n'drop, file sharing, searching...
  * Google Docs to display and edit your documents
- * [Chat app](https://github.com/symbiose/symbiose/wiki/Empathy) which supports XMPP (Google, Facebook, with multiple accounts and OTR encryption) as well as WebRTC (text messages, file sending, video calls, screencasts...)
+ * [Chat app](https://github.com/odinvolk/symbiose/wiki/Empathy) which supports XMPP (Google, Facebook, with multiple accounts and OTR encryption) as well as WebRTC (text messages, file sending, video calls, screencasts...)
  * Basic word processor
  * Basic multimedia player
  * Music player (based on [GNOME Music](https://wiki.gnome.org/Apps/Music))
- * Basic web browser
- * Terminal (with a basic interpreter)
- * Image viewer, archive manager, software centre...
-* Customizable: themes, background and so on
-* Multiple interfaces: Elementary OS, GNOME Shell, GNOME Panel (GNOME 2), Windows 7-like, mobile, CLI
-* Easy configuration with a _System settings_ app and simple config files
-* Dropbox, Google Drive, FTP, FTPS, SFTP (SSH) integration
-* [LDAP authentication](https://github.com/symbiose/symbiose/wiki/LDAP-authentication) support
-* Firefox Marketplace apps integration
-* Native GTK3 apps can be displayed on the web desktop using [Broadway](https://github.com/symbiose/symbiose/wiki/Broadway)
-* Available in English, French, German, Italian and Spanish
-* WebSocket support
-* Can be used in standalone mode (which just requires a static server, no PHP)
-* And more!
+ * Основной веб-браузер
+ * Терминал (с базовым интерпритатором)
+ * Средство просмотра изображений, менеджер архива, программный центр ...
+ * Настраиваемые темы, фон и т.д.
+ * Несколько интерфейсов: Elementary OS, GNOME Shell, GNOME Panel (GNOME 2), Windows 7-like, mobile, CLI
+ * Простая настройка с помощью приложения _System settings_ и простых файлов конфигурации
+ * Dropbox, Google Drive, FTP, FTPS, SFTP (SSH) интеграция
+ * [LDAP authentication](https://github.com/odinvolk/symbiose/wiki/LDAP-authentication) поддержка
+ * Интеграция приложений Firefox Marketplace
+ * Нативные приложения GTK3 могут отображаться на веб-сайте, используя [Broadway](https://github.com/odinvolk/symbiose/wiki/Broadway)
+ * Доступно на английском, русском, французском, немецком, итальянском и испанском языках.
+ * WebSocket поддержка
+ * Может использоваться в автономном режиме (который просто требует статического сервера, не PHP)
+ * И многое другое!
 
-Demo
+Демо
 ----
 
-You can try Symbiose on our website : http://symbiose.fr.cr/ (username : _demo_, password : _demo_).
+Вы можете попробовать Symbiose на нашем сайте: http://symbiose.fr.cr/ (username : _demo_, password : _demo_).
 
 Bug tracker
 -----------
 
-Have a bug ? Please create an issue here on GitHub : https://github.com/symbiose/symbiose/issues.
+Есть ошибка? Пожалуйста, создайте issui, на GitHub : https://github.com/odinvolk/symbiose/issues.
 
-Installing
+Установка
 ----------
 
-Run the following command on *nix:
+Выполните следующую команду *nix:
 ```bash
-curl -sS https://symbiose.github.io/symbiose-installer/installer.sh | sh
+curl -sS https://odinvolk.github.io/symbiose-installer/installer.sh | sh
 ```
 
-On Windows or if you prefer a manual installation, see https://github.com/symbiose/symbiose/wiki/Installing.
+В Windows или если вы предпочитаете ручную установку, см. https://github.com/odinvolk/symbiose/wiki/Установка.
 
-Software requirements
+Требования к ПО
 ---------------------
 
-* Server: 
+* Сервер: 
  * PHP >= 5.3
- * Database: optional (off by default)
-* Client: a fast and modern web browser (e.g. the latest *Mozilla Firefox*). Tested on:
- * Firefox (latest version)
- * Chromium (latest version)
- * Internet Explorer 10+, if you're lucky!
+ * База данных: optional (по умолчанию выключена)
+* Клиент: Любой современный веб браузер (e.g. the latest *Mozilla Firefox*). Тестировалось в:
+ * Firefox (последняя версия)
+ * Chromium (последняя версия)
+ * Internet Explorer 10+, если вам повезет!
 
-> **NB**: Symbiose can also run in standalone mode, which doesn't require PHP.
+> **ПС**: Symbiose также может работать в автономном режиме, что не требует PHP.
 
-Copyright
+Авторское право
 ---------
 
 Symbiose is licensed under the MIT License (MIT). A copy of the license is available in `LICENSE`.
