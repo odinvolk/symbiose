@@ -3,6 +3,9 @@
 // Coded by TiBounise (http://tibounise.com)
 // Reviewed by $imon
 // Released as GPL v3 software
+// Инструмент командной строки, созданный для загрузки файлов.
+// Его можно использовать в терминале и в приложениях.
+// Syntax: wget [URL]
 
 $authManager = $this->managers()->getManagerOf('processAuthorization');
 $fileManager = $this->managers()->getManagerOf('file');
